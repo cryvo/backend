@@ -1,0 +1,16 @@
+{
+  "name": "cryvo/backend",
+  "description": "Cryvo Exchange Laravel Backend",
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^10.0",
+    "fireblocks/fireblocks-sdk-php": "^6.0",
+    "flutterwavedev/flutterwave-v3": "^3.0",
+    "mercadopago/dx-php": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
